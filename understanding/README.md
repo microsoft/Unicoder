@@ -1,22 +1,6 @@
 # Unicoder
 This repo provides the code for reproducing the experiment in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401).
 
-## Revised Files
-examples/run_xglue.py
-
-examples/run_xglue_ft.py
-
-examples/run_xmrc.py
-
-examples/ner/run_ner.py
-
-src/transformers/data/processors/xglue.py
-
-src/transformers/data/metrics/__init__.py
-
-## Aadded Files
-Unicoder/xglue.sh
-
 ## Install and Dependency
 
 This repo is based on [Transformers](https://github.com/huggingface/transformers). It's tested on Python 3.6+, PyTorch 1.4.0.
@@ -294,7 +278,21 @@ The languages in fine-tuning and testing doesn't need to be same. You could only
 
 ## Notes and Acknowledgments
 This code base is built on top of [Transformers](https://github.com/huggingface/transformers).
+### Revised Files
+examples/run_xglue.py
 
+examples/run_xglue_ft.py
+
+examples/run_xmrc.py
+
+examples/ner/run_ner.py
+
+src/transformers/data/processors/xglue.py
+
+src/transformers/data/metrics/__init__.py
+
+### Aadded Files
+Unicoder/xglue.sh
 ## How to cite
 If you extend or use this work please cite [our paper](https://arxiv.org/abs/2004.01401).
 ```
