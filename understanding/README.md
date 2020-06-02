@@ -291,8 +291,8 @@ src/transformers/data/processors/xglue.py
 
 src/transformers/data/metrics/__init__.py
 
-### Aadded Files
-Unicoder/xglue.sh
+### Added Files
+unicoder/xglue.sh
 ## How to cite
 If you extend or use this work please cite [our paper](https://arxiv.org/abs/2004.01401).
 ```
