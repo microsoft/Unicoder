@@ -1,3 +1,48 @@
+# Unicoder
+This repo provides the code for reproducing the experiment in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401).
+
+We provide three models, Unicoder for understanding, Unicoder for generation pre-trained with xDAE and Unicoder for generation pre-trained with xFNP.
+
+## Unicoder for understanding
+We share a 12-layers model which is pre-trained with 100 languages.
+
+This code could reproduce the experiments on 9 understanding XGLUE tasks, include: NER,
+POS Tagging (POS),
+News Classification (NC),
+MLQA,
+XNLI,
+PAWS-X,
+Query-Ad Matching (QADSM),
+Web Page Ranking (WPR),
+QA Matching (QAM).
+
+For more details, you could go to [understanding README](./understanding/README.md).
+
+## Unicoder for generation pre-trained with xDAE
+We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
+
+The code could reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+
+For more details, you could go to [generation README](./generation/README.md).
+
+## Unicoder for generation pre-trained with xFNP
+We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
+
+The code could reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+
+For more details, you could go to [ProphetNet](https://github.com/microsoft/ProphetNet/tree/master/xProphetNet).
+
+## How to cite
+If you extend or use this work please cite [our paper](https://arxiv.org/abs/2004.01401).
+```
+@article{Liang2020XGLUEAN,
+  title={XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation},
+  author={Yaobo Liang and Nan Duan and Yeyun Gong and Ning Wu and Fenfei Guo and Weizhen Qi and Ming Gong and Linjun Shou and Daxin Jiang and Guihong Cao and Xiaodong Fan and Ruofei Zhang and Rahul Agrawal and Edward Cui and Sining Wei and Taroon Bharti and Ying Qiao and Jiun-Hung Chen and Winnie Wu and Shuguang Liu and Fan Yang and Daniel Campos and Rangan Majumder and Ming Zhou},
+  journal={arXiv},
+  year={2020},
+  volume={abs/2004.01401}
+}
+```
 
 # Contributing
 
