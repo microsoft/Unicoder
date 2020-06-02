@@ -3,10 +3,15 @@ This repo provides the code for reproducing the experiment in [XGLUE: A New Benc
 
 ## Revised Files
 examples/run_xglue.py
+
 examples/run_xglue_ft.py
+
 examples/run_xmrc.py
+
 examples/ner/run_ner.py
+
 src/transformers/data/processors/xglue.py
+
 src/transformers/data/metrics/__init__.py
 
 ## Aadded Files
