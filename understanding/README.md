@@ -289,7 +289,7 @@ examples/ner/run_ner.py
 
 src/transformers/data/processors/xglue.py
 
-src/transformers/data/metrics/__init__.py
+src/transformers/data/metrics/\_\_init\_\_.py
 
 ### Added Files
 unicoder/xglue.sh
