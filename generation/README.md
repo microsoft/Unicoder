@@ -28,7 +28,7 @@ pip install --editable .
 
 ### Download XGLUE dataset
 
-You can download XGLUE dataset from [XGLUE github](https://github.com/microsoft/XGLUE).
+You can download XGLUE dataset from [XGLUE homepage](https://microsoft.github.io/XGLUE/).
 
 ### Preprocess NTG data
 

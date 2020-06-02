@@ -38,7 +38,7 @@ The pre-trained model used in paper is at [here](https://1drv.ms/u/s!Amt8n9AJEyx
 ## Fine-tuning experiments
 
 ### XGLUE dataset
-You could download XGLUE dataset from [XGLUE github](https://github.com/microsoft/XGLUE).
+You can download XGLUE dataset from [XGLUE homepage](https://microsoft.github.io/XGLUE/).
 
 ### Fine-tuning
 We used a single V100 with 32GB memory to run all the experiments. If you are using GPU with 16GB memory or less, you could decrease the per_gpu_train_batch_size and increase gradient_accumulation_steps. 
