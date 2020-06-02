@@ -51,12 +51,7 @@ bash ./bash_scripts/preprocess/preprocess_QG.sh \
 
 ## Generation fine-tuning with XDAE
 
-  ### Added task and dataset for generation finetuning
   
-  generation/fairseq/tasks/generation_from_pretrained_bart.py
-  
-  generation/fairseq/data/generation_pair_dataset.py
-
   ### Download pretrained model
 
   You can download the pretrained XDAE model used in this paper [here](https://1drv.ms/u/s!Amt8n9AJEyxckWbpMyGKPKWDjTG-?e=elsf31).
@@ -94,6 +89,27 @@ bash ./bash_scripts/finetune/finetune_QG.sh \
 ## Notes and Acknowledgments
 
 This code base is built on top of [FAIRSEQ](https://github.com/pytorch/fairseq).
+
+#### Added tasks and datasets for generation
+  
+  generation/fairseq/tasks/generation_from_pretrained_bart.py
+
+  generation/fairseq/tasks/generation_from_pretrained_xlmr.py
+
+  generation/fairseq/tasks/multilingual_generation_from_bart.py
+
+  generation/fairseq/tasks/multilingual_denoising_xdae.py
+
+  generation/fairseq/data/generation_pair_dataset.py
+
+  generation/fairseq/data/generation_multi_pair_dataset.py
+
+  generation/fairseq/data/xdae_denoising_dataset.py
+
+#### Added scripts
+
+  generation/evaluation
+  generation/bash_scripts
 
 ## How to cite
 
