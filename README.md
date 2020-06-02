@@ -35,6 +35,13 @@ For more details, you could go to [ProphetNet](https://github.com/microsoft/Prop
 ## How to cite
 If you extend or use this work please cite [our paper](https://arxiv.org/abs/2004.01401).
 ```
+@inproceedings{huang2019unicoder,
+  title={Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks},
+  author={Huang, Haoyang and Liang, Yaobo and Duan, Nan and Gong, Ming and Shou, Linjun and Jiang, Daxin and Zhou, Ming},
+  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+  pages={2485--2494},
+  year={2019}
+}
 @article{Liang2020XGLUEAN,
   title={XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation},
   author={Yaobo Liang and Nan Duan and Yeyun Gong and Ning Wu and Fenfei Guo and Weizhen Qi and Ming Gong and Linjun Shou and Daxin Jiang and Guihong Cao and Xiaodong Fan and Ruofei Zhang and Rahul Agrawal and Edward Cui and Sining Wei and Taroon Bharti and Ying Qiao and Jiun-Hung Chen and Winnie Wu and Shuguang Liu and Fan Yang and Daniel Campos and Rangan Majumder and Ming Zhou},
