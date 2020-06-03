@@ -51,6 +51,12 @@ If you extend or use this work please cite [our paper](https://arxiv.org/abs/200
 }
 ```
 
+## More Models in the Unicoder Family (to be released...)
+[Unicoder-VL (image)](https://arxiv.org/abs/1908.06066)  
+[Unicoder-VL (video)](https://arxiv.org/abs/2002.06353)  
+[XGPT (image)](https://arxiv.org/abs/2003.01473)  
+[M^3P (image)]()
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
