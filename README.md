@@ -51,7 +51,7 @@ If you extend or use this work please cite [our paper](https://arxiv.org/abs/200
 }
 ```
 
-## More Models in the Unicoder Family (to be released...)
+## More Models in the Unicoder Family (`coming soon`)
 [Unicoder-VL (image)](https://arxiv.org/abs/1908.06066): a monolingual (English) pre-trained model for image-language understanding tasks.  
 [Unicoder-VL (video)](https://arxiv.org/abs/2002.06353): a monolingual (English) pre-trained model for video-language understanding and generation tasks.  
 [XGPT (image)](https://arxiv.org/abs/2003.01473): a monolingual (English) pre-trained model for image captioning.  
