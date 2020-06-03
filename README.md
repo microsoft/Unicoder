@@ -1,12 +1,12 @@
 # Unicoder
-This repo provides the code for reproducing the experiment in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401).
+This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401).
 
-We provide three models, Unicoder for understanding, Unicoder for generation pre-trained with xDAE and Unicoder for generation pre-trained with xFNP.
+We provide three models, Unicoder for understanding tasks, Unicoder for generation tasks (pre-trained with xDAE) and Unicoder for generation tasks (pre-trained with xFNP).
 
-## Unicoder for understanding
+## Unicoder for understanding tasks
 We share a 12-layers model which is pre-trained with 100 languages.
 
-This code could reproduce the experiments on 9 understanding XGLUE tasks, include: NER,
+This code can reproduce the experiments on 9 understanding XGLUE tasks, include: NER,
 POS Tagging (POS),
 News Classification (NC),
 MLQA,
@@ -16,24 +16,24 @@ Query-Ad Matching (QADSM),
 Web Page Ranking (WPR),
 QA Matching (QAM).
 
-For more details, you could go to [understanding README](./understanding/README.md).
+For more details, you can go to [understanding README](./understanding/README.md).
 
-## Unicoder for generation pre-trained with xDAE
+## Unicoder for generation tasks (pre-trained with xDAE)
 We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
 
-The code could reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+The code can reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
 
-For more details, you could go to [generation README](./generation/README.md).
+For more details, you can go to [generation README](./generation/README.md).
 
-## Unicoder for generation pre-trained with xFNP
+## Unicoder for generation tasks (pre-trained with xFNP)
 We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
 
-The code could reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+The code can reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
 
-For more details, you could go to [ProphetNet](https://github.com/microsoft/ProphetNet/tree/master/xProphetNet).
+For more details, you can go to [ProphetNet](https://github.com/microsoft/ProphetNet/tree/master/xProphetNet).
 
 ## How to cite
-If you extend or use this work please cite [our paper](https://arxiv.org/abs/2004.01401).
+If you extend or use this work, please cite [our paper](https://arxiv.org/abs/2004.01401).
 ```
 @inproceedings{huang2019unicoder,
   title={Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks},
@@ -56,6 +56,7 @@ If you extend or use this work please cite [our paper](https://arxiv.org/abs/200
 [Unicoder-VL (video)](https://arxiv.org/abs/2002.06353): a monolingual (English) pre-trained model for video-language understanding and generation tasks.  
 [XGPT (image)](https://arxiv.org/abs/2003.01473): a monolingual (English) pre-trained model for image captioning.  
 [M^3P (image)](): a multilingual (100 languages) pre-trained model for image-language understnading and generation tasks.  
+[CodeBERT](https://arxiv.org/abs/2002.08155): a multi-Plingual pre-trained model for NL(natural language)-PL(programming language) tasks. 
 
 # Contributing
 
