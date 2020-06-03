@@ -1,5 +1,5 @@
 # Unicoder
-This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401) `([leaderboard](https://microsoft.github.io/XGLUE/ "https://microsoft.github.io/XGLUE/"))`.
+This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401) ([`leaderboard`](https://microsoft.github.io/XGLUE/ "https://microsoft.github.io/XGLUE/")).
 
 We provide three models, Unicoder for understanding tasks, Unicoder for generation tasks (pre-trained with xDAE) and Unicoder for generation tasks (pre-trained with xFNP).
 
