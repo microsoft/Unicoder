@@ -6,7 +6,7 @@ We provide three models, Unicoder for understanding tasks, Unicoder for generati
 ## Unicoder for understanding tasks
 We share a 12-layers model which is pre-trained with 100 languages.
 
-This code can reproduce the experiments on 9 understanding XGLUE tasks, include: NER,
+This code can reproduce the experiments on 9 understanding XGLUE tasks: NER,
 POS Tagging (POS),
 News Classification (NC),
 MLQA,
@@ -21,14 +21,14 @@ For more details, you can go to [understanding README](./understanding/README.md
 ## Unicoder for generation tasks (pre-trained with xDAE)
 We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
 
-The code can reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+The code can reproduce the experiments on 2 generation XGLUE tasks: News Title Generation(NTG) and Question Generation (QG).
 
 For more details, you can go to [generation README](./generation/README.md).
 
 ## Unicoder for generation tasks (pre-trained with xFNP)
 We share a 12-layer encoder and 12-layer decoder model which is pre-trained with 100 languages.
 
-The code can reproduce the experiments on 2 generation XGLUE tasks, News Title Generation(NTG) and Question Generation (QG).
+The code can reproduce the experiments on 2 generation XGLUE tasks: News Title Generation(NTG) and Question Generation (QG).
 
 For more details, you can go to [ProphetNet](https://github.com/microsoft/ProphetNet/tree/master/xProphetNet).
 
