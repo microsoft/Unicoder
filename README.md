@@ -55,7 +55,7 @@ If you extend or use this work, please cite [our paper](https://arxiv.org/abs/20
 [Unicoder-VL (image)](https://arxiv.org/abs/1908.06066 "https://arxiv.org/abs/2003.01473"): a monolingual (English) pre-trained model for image-language understanding tasks.  
 [Unicoder-VL (video)](https://arxiv.org/abs/2002.06353 "https://arxiv.org/abs/2003.01473"): a monolingual (English) pre-trained model for video-language understanding and generation tasks.  
 [XGPT (image)](https://arxiv.org/abs/2003.01473 "https://arxiv.org/abs/2003.01473"): a monolingual (English) pre-trained model for image captioning.  
-[M^3P (image)](): a multilingual (100 languages) pre-trained model for image-language understnading and generation tasks.  
+[M^3P (image)](https://arxiv.org/pdf/2006.02635.pdf "https://arxiv.org/pdf/2006.02635.pdf"): a multilingual (100 languages) pre-trained model for image-language understnading and generation tasks.  
 [CodeBERT](https://arxiv.org/abs/2002.08155 "https://arxiv.org/abs/2002.08155"): a multi-Plingual pre-trained model for NL(natural language)-PL(programming language) tasks. 
 
 # Contributing
