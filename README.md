@@ -3,6 +3,9 @@ This repo provides the code for reproducing the experiments in [XGLUE: A New Ben
 
 We provide three models, Unicoder for understanding tasks, Unicoder for generation tasks (pre-trained with xDAE) and Unicoder for generation tasks (pre-trained with xFNP).
 
+# updates
+**Code for XLM-K**: we add the code for [XLM-K: Improving Cross-Lingual Language Model Pre-Training with Multilingual Knowledge](https://arxiv.org/abs/2109.12573) at [here](./pretraining/xlmk/README.md).
+
 ## Unicoder for understanding tasks
 We share a 12-layers model which is pre-trained with 100 languages.
 
